@@ -1,0 +1,9 @@
+npm init -y
+npm i express helmet cors dotenv
+npm i typescript -D
+npm i -D @types/node @types/express @types/dotenv @types/helmet @types/cors
+npx tsc --init # tsconfig.json
+npm i -D ts-node-dev 
+npm i -D ts-loader # transformation
+npm i webpack-node-externals -D
+npm i jest supertest @types/jest ts-jest @types/supertest -D
